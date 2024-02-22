@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-	const source = 'https://vod02.cdn.web.tv/ps/fp/psfpskkrfpm_,240,360,.mp4.urlset/master.m3u8?st=A5UV1h1aMbWM0ei4JoGWKQ&e=1561248139';
+	const source = 'https://corsproxy.org/?https://cakal.click/yayinzirve.m3u8';
 	const video = document.querySelector('video');
 	
 	// For more options see: https://github.com/sampotts/plyr/#options
@@ -24,4 +24,3 @@ document.addEventListener('DOMContentLoaded', () => {
 	
 	// Expose player so it can be used from the console
 	window.player = player;
-});
