@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html>
-<script src="//vjs.zencdn.net/5.14.1/video.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls/3.5.2/videojs-contrib-hls.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <title>HLS video hosted on SakoTV</title>
+  <link href="https://vjs.zencdn.net/8.0.4/video-js.css" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+  <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
+</head>
 
-<video id="player" class="video-js vjs-default-skin"
-       controls
-       muted
-       width="640" height="360">
-    <source src="https://corsproxy.org/?https://cakal.click/yayinzirve.m3u8" type="application/x-mpegURL">
-</video>
+<body style="background-color:rgb(15,15,15);">
+  <p style="text-align:center">
+    <span style="color:#ffffff">HLS video hosted on Dropbox</span>
+  </p>
+  <div class="container">
+    <video style="aspect-ratio: 16 / 9;position:relative;width: 100%;height: 100%;" id="video-js" class="video-js container" controls preload="auto" width="1280" height="720" autoplay muted data-setup="{}">
+      <source src="https://test.cors.workers.dev/?https://cakal.click/yayinzirve.m3u8" type="application/x-mpegURL" />
+    </video>
+  </div>
+  <p style="text-align:center">
+    <span style="color:#ffffff">This video was split into 60 second hls fragments using FFmpeg and then uploaded to Dropbox, both the playlist and the fragments are hosted on Dropbox.</span>
+  </p>
+  <script src="https://vjs.zencdn.net/8.0.4/video.min.js"></script>
+</body>
 </html>
