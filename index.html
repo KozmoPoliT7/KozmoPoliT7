@@ -1,24 +1,12 @@
 <!DOCTYPE html>
 <html>
-<script src="https://cdn.jsdelivr.net/hls.js/latest/hls.min.js"></script>
-<video id="video" src="https://corsproxy.org/?https://cakal.click/yayinzirve.m3u8"></video>
-<div id="metadata">
-  <div id="title">Bein Sports 1</div>
-  <div id="description">ApoPopo</div>
-</div>
-<div id="controls">
-  <div id="play_pause">
-    <div class="button fas fa-pause hidden" id="pause"></div>
-    <div class="button fas fa-play" id="play"></div>
-  </div>
-  <div class="time" id="elapsed">00:00</div>
-  <div class="time" id="separator"> / </div>
-  <div class="time" id="duration">00:00</div>
-  <div class="slider seek"><input type="range" id="seek" value="0" min="0" max="100"></div>
-  <div class="speaker">
-    <div class="button fas fa-volume-up" id="unmuted"></div>
-    <div class="hidden button fas fa-volume-mute" id="muted"></div>
-  </div>
-  <div class="slider"><input type="range" id="volume" min="0" max="1" step="0.1" value="1"></div>
-</div>
+<script src="//vjs.zencdn.net/5.14.1/video.js"></script>
+<script src="https://corsproxy.org/?https://cakal.click/yayinzirve.m3u8"></script>
+
+<video id="player" class="video-js vjs-default-skin"
+       controls
+       muted
+       width="640" height="360">
+    <source src="https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8" type="application/x-mpegURL">
+</video>
 </html>
