@@ -1,9 +1,21 @@
-<!DOCTYPE html>
-<html>
-<div class="container">
-	<video controls crossorigin playsinline poster="https://logowik.com/content/uploads/images/bein-sports-13097.logowik.com.webp"></video>
+<script src="https://cdn.jsdelivr.net/hls.js/latest/hls.min.js"></script>
+<video id="video" src="https://corsproxy.org/?https://cakal.click/yayinzirve.m3u8"></video>
+<div id="metadata">
+  <div id="title">Bein Sports 1</div>
+  <div id="description">ApoPopo</div>
 </div>
-<!-- Plyr resources and browser polyfills are specified in the pen settings -->
-<!-- Hls.js 0.9.x and 0.10.x both have critical bugs affecting this demo. Using fixed git hash to when it was working (0.10.0 pre-release), until https://github.com/video-dev/hls.js/issues/1790 has been resolved -->
-<script src="https://cdn.rawgit.com/video-dev/hls.js/18bb552/dist/hls.min.js"></script>
-</html>
+<div id="controls">
+  <div id="play_pause">
+    <div class="button fas fa-pause hidden" id="pause"></div>
+    <div class="button fas fa-play" id="play"></div>
+  </div>
+  <div class="time" id="elapsed">00:00</div>
+  <div class="time" id="separator"> / </div>
+  <div class="time" id="duration">00:00</div>
+  <div class="slider seek"><input type="range" id="seek" value="0" min="0" max="100"></div>
+  <div class="speaker">
+    <div class="button fas fa-volume-up" id="unmuted"></div>
+    <div class="hidden button fas fa-volume-mute" id="muted"></div>
+  </div>
+  <div class="slider"><input type="range" id="volume" min="0" max="1" step="0.1" value="1"></div>
+</div>
