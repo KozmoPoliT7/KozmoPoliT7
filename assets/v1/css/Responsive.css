@@ -1,0 +1,335 @@
+@media only screen and (max-width: 1024px) {
+    .limit-screen svg {
+        width: 40px;
+        margin-bottom: 1em
+    }
+    .limit-screen .text>div:last-child {
+        display: none;
+    }
+    .limit-screen .text>div:first-child {
+        font-size: .875em
+    }
+    .limit-screen {
+        left: calc(50% - 125px);
+        top: calc(50% - 51px);
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .fancybox-container {
+        width: 100%;
+        left: 0;
+        margin: unset
+    }
+    .matchEndedScreen {
+        padding: 1em;
+        font-size: .875em;
+    }
+    .loader-teams img {
+        width: 48px;
+    }
+    .loader-teams {
+        grid-template-columns: 100px auto 100px;
+    }
+    .sr-bb .sr-match-default__results-large {
+        display: none !important;
+    }
+    .sr-match-bahisyap {
+        display: none;
+    }
+    .sr-match__container {
+        grid-template-columns: 1fr;
+    }
+    .sr-match-bahisyap {
+        margin-right: 0 !important;
+    }
+    .live-score-head {
+        flex-direction: column;
+        padding: 0;
+    }
+    .score-sports {
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        justify-content: stretch;
+        width: 100%;
+    }
+    .score-sports>div {
+        width: 100%;
+    }
+    .head-title {
+        padding: 1em;
+    }
+    .popup-ads {
+        top: 0 !important;
+        left: 0 !important;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    .popup-close {
+        top: 2em;
+        right: 2em;
+    }
+    .popup-ads img {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .single-channel-play svg {
+        max-width: 64px
+    }
+    .single-channel-play img {
+        max-width: 120px
+    }
+    .radar-tabhead {
+        grid-template-columns: repeat(4, auto)
+    }
+    .plyr--video .watermark img {
+        max-width: 64px
+    }
+    .watermark.sagAlt {
+        bottom: 2em!important
+    }
+    .watermark.solAlt {
+        bottom: 2em!important
+    }
+    .list-area,
+    .list-tabbed {
+        height: unset;
+        max-height: 300px
+    }
+    .header-text:not(:empty) {
+        margin-bottom: 1em;
+        text-align: center
+    }
+    .live-list {
+       
+		    max-height: 400px!important;
+    }
+    .pageskin,
+    .boxed-site {
+        /*display: none;*/
+		    width: calc(100% - 36px)!important;
+    }
+    .wide .list-area {
+        grid-template-columns: 1fr
+    }
+    .wide [data-tabbed="live"] .list-area>div {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container-grid {
+        grid-template-columns: 1fr
+    }
+    .channel-list {
+        width: calc(100% - 4em);
+        margin-left: auto;
+        margin-right: auto
+    }
+    .channel-area {
+        display: flex;
+        flex-direction: column;
+        align-items: unset;
+        justify-content: unset
+    }
+    .channel-right {
+        position: absolute;
+        top: calc(50% - 13px);
+        right: 0;
+        z-index: 99
+    }
+    .channel-left {
+        position: absolute;
+        top: calc(50% - 13px);
+        left: 0;
+        z-index: 99
+    }
+    .channel-area svg path {
+        opacity: .8!important
+    }
+    .glide__slide--active {
+        margin: 0 1em
+    }
+    header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center
+    }
+    header ul {
+        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        text-align: center;
+        gap: 1em
+    }
+    header ul li a span {
+        font-size: .75em
+    }
+    header ul li a {
+        padding: 0
+    }
+    header ul li a i {
+        font-size: 1.25em
+    }
+    header .logo {
+        margin-bottom: 1em
+    }
+    .footer-links {
+        grid-template-columns: repeat(2, 1fr)
+    }
+    .news-grid {
+        grid-template-columns: 1fr
+    }
+    .live-player {
+        min-height: unset;
+        order: -2
+    }
+    .player-channel-area {
+        order: -2
+    }
+	 .odds-container {
+       display:none
+    }
+    .noxstream-gorsel.playerbottom {
+        grid-column: unset;
+        order: -1;
+    }
+    [data-light],
+    [data-plyr="rewind"],
+    .plyr__volume,
+    [data-plyr="wide"],
+    .news-grid>.list-head:first-child {
+        display: none
+    }
+    [data-focustab] {
+        letter-spacing: 0
+    }
+    [data-focustab] span {
+        font-size: .75em
+    }
+    .stream-ads.fullscreen {
+        width: 336px!important;
+        height: 35px!important;
+        left: calc(50% - 168px)!important
+    }
+    .stream-ads.smallscreen {
+        width: 336px!important;
+        height: 35px!important;
+        left: calc(50% - 168px)!important
+    }
+    .stream-ads {
+        bottom: calc(65px + 1em)
+    }
+    .list-head>div {
+        white-space: normal;
+    }
+    .odds-area {
+        padding: 1em;
+    }
+    .odds-area {
+        grid-template-columns: 1fr 1fr;
+    }
+    .odds-container .list-head>div {
+        font-size: .75em;
+    }
+    .single-odds {
+        order: -1
+    }
+    .single-odds>div {
+        max-width: 120px;
+    }
+    .odds-list {
+        grid-column: 1 / 3;
+    }
+    .odds-list .single-bet {
+        grid-template-columns: 100px auto auto auto;
+    }
+    .single-odds img {
+        width: 32px;
+        margin-top: .25em
+    }
+	.mobile {
+		display:none;
+	}
+	.desktop {
+		display:block;
+	}
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    header ul {
+        grid-template-columns: repeat(3, 1fr)
+    }
+	.desktop {
+		display:none;
+	}
+	.mobil { display:block!important;}
+    .header-top {
+        flex-direction: column
+    }
+    .glide img {
+        max-width: 100%;
+        max-height: 80px;
+    }
+    .radar-tabhead {
+        grid-template-columns: repeat(2, auto)
+    }
+    .blog-list {
+        grid-template-columns: 1fr;
+    }
+    .stream-ads.fullscreen {
+        width: 336px!important;
+        height: 35px!important;
+        left: calc(50% - 168px)!important
+    }
+    .stream-ads.smallscreen {
+        width: 336px!important;
+        height: 35px!important;
+        left: calc(50% - 168px)!important
+    }
+    .stream-ads {
+        bottom: calc(65px + 1em)
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    body::before {
+        display: none
+    }
+    body {
+        padding: 0 2em;
+        background-color: var(--mobilbg);
+        background: linear-gradient(135deg, var(--mobilbg), #000) !important;
+        background-size: cover !important;
+        background-attachment: fixed !important;
+        background-repeat: no-repeat;
+    }
+    .widget-body {
+        padding: 0;
+        background: #000;
+        margin: auto
+    }
+    .widget-body::after,
+    .widget-body::before {
+        display: none;
+    }
+    .widget-body .list-area,
+    .widget-body .list-tabbed {
+        max-height: 430px;
+    }
+}
+
+@media only screen and (min-width:1336px) {
+    a:hover,
+    .single-match,
+    .single-news,
+    .popup-close,
+    .live-button,
+    .channel-left,
+    .channel-right,
+    .list-tabbed>div,
+    .head-grid>div,
+    .video-skip.done,
+    .video-ads,
+    .plyr__ads,
+    .plyr__control {
+        cursor: pointer
+    }
+}
